@@ -1,12 +1,14 @@
 import turtle
 import math
 
+
+
+
+
+side = raw_input("Enter the length of square's side ")
+
 finestra = turtle.Screen() #creates an object from turtle.Screen 
 finestra.bgcolor("orange") #sets some settings of the object
-
-
-
-side =200
 
 def square_diagonal(squareSide):
 	diagonal= squareSide * (math.sqrt(2))
